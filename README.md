@@ -12,5 +12,11 @@
 
 ## TO ADD STILL
 * A better graphical user interface
-* * A way to track and show how many orders a client has
+* A way to track and show how many orders a client has
 * A better backend for the payment system
+* Admin interface that monitors everything on the app
+* Promotions and discounts
+* Add to cart featue that works in real time
+* The issue of cookies
+* Remove bootstrap
+* Use static CSS and json
