@@ -12,3 +12,5 @@
 
 ## TO ADD STILL
 * A better graphical user interface
+* * A way to track and show how many orders a client has
+* A better backend for the payment system
