@@ -6,3 +6,5 @@
 * Do servicing of old gadgets
 * Screen replacement and smartphone protectors
 * Buy phones
+* Secure payments for the services
+* Track customers orders
