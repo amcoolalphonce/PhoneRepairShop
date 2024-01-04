@@ -18,5 +18,4 @@
 * Promotions and discounts
 * Add to cart featue that works in real time
 * The issue of cookies
-* Remove bootstrap
 * Use static CSS and json
