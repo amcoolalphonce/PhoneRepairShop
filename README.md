@@ -8,3 +8,5 @@
 * Buy phones
 * Secure payments for the services
 * Track customers orders
+*  Notifies the customers once their services have been done
+
