@@ -1,0 +1,15 @@
+# ignore files related to APIs
+.env
+#environment
+.venv/*
+
+.vscode/*
+
+__pycache__
+db.sqlite3
+media
+
+shop/settings.py
+shop/__pycache__
+store/__init__.py
+store/migrations/*
