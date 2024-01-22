@@ -2,7 +2,7 @@
 .env
 #environment
 .venv/*
-
+development_files
 .vscode/*
 
 __pycache__
