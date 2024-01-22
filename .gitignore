@@ -1,7 +1,7 @@
 # ignore files related to APIs
 .env
 #environment
-.venv
+.venv/*
 
 .vscode/*
 
@@ -10,3 +10,5 @@ db.sqlite3
 media
 
 shop/settings.py
+store/__init__.py
+store/migrations/*
