@@ -8,11 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" />
         <link rel="stylesheet" href="{% static 'style.css' %}">
-        <title>Phone shop</title>
+        <title>{% block page-title %}
+                {% endblock %} - Phoneshop</title>
 </head>
 
 <body>
-        <script src="app.js"></script>
         <div class="nav-container">
                 <nav class="navbar">
                         <h1 id="navbar-logo">Phone Repair Shop</h1>
@@ -30,8 +30,10 @@
                         </ul>
                 </nav>
         </div>
-        {%  block content %}
-        {%  endblock content%}
+        <div class="content">
+                {% block content %}
+                {% endblock %}
+        </div>
 </body>
 
 </html>
