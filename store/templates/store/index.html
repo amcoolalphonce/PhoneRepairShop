@@ -1,5 +1,25 @@
 {% extends 'store/base.html' %}
 {% load static %}
+<link rel="stylesheet" href="{% static 'index.css' %}">
 {% block content %}
-Home page
+<h1>Our Services include</h1>
+
+<div class="main-container">
+        {% for serve  in services %}
+        <div class="card-container">
+                <img src= '{{ serve.service_image }} ' alt="">
+                <div class="card-detail">
+                        <div class="title">
+                                <p>{{ serve.service_name }}</p>
+                        </div>
+                        <div class="description">
+                                <span class="text"> This is the product</span>
+                                <p>{{ serve.service_description }}</p>
+                        </div>
+                </div>
+                <a href="{% url 'service' serve.service_name %}"><button class="view-product">View</button></a>
+        </div>
+        {%endfor%}
+</div>
+
 {% endblock content %}
