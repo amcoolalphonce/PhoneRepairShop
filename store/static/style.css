@@ -15,26 +15,6 @@ body{
         margin: 0;
         padding: 0;
 }
-ul {
-        list-style: none;
-}
-ul li{
-        display: inline-block;
-        position: relative;
-}
-ul li a{
-        display: block;
-}
-ul li ul.dropdown li{
-        display: block;
-}
-ul li ul.dropdown{
-        width: 100%;
-        position: absolute;
-        background: #000;
-        z-index: 999;
-        display: none;
-}
 .nav-container {
         width: 100%;
         background-color: var(--darkgray);
