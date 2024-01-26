@@ -84,6 +84,7 @@ body{
 }
 .card p {
         margin-top: 10px;
+        line-height: 1.5;
 }
 .card-container {
         display: flex;
@@ -94,4 +95,10 @@ body{
         text-align: center;
         font-size: 40px;
         margin-top: 20px;
+}
+.cebtered-div{
+        width: 50%;
+        padding: 20px;
+        justify-content: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
