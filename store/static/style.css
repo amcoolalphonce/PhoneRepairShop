@@ -72,7 +72,7 @@ body{
 }
 
 .card strong {
-        font-size: 18px;
+        font-size: 22px;
         display: block;
    
 }
@@ -80,6 +80,7 @@ body{
         max-width: 200px;
         height: auto;
         margin-top: 10px;
+        border-radius: 45%;
 }
 .card p {
         margin-top: 10px;
@@ -91,6 +92,6 @@ body{
 }
 .service_list{
         text-align: center;
-        font-size: 24px;
+        font-size: 40px;
         margin-top: 20px;
 }
