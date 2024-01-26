@@ -4,16 +4,19 @@
 {% block content %}
         <h1 class="service_list">Service List</h1>
         <br>
-        <div class="card-container">
-                {% for service in services %}
-                <div class="card">
-                        <strong>{{ service.service_name }}</strong><br>
-                        {% if service.service_image %}
-                        <img src="{{ service.service_image }}" alt="{{ service.service_name }}">
-                        <strong>Description : </strong><p> {{ service.service_description }}</p><br>
-                        {% endif %}
+        <div class="centered-div">
+                <div class="card-container">
+                        {% for service in services %}
+                        <div class="card">
+                                <strong>{{ service.service_name }}</strong><br>
+                                {% if service.service_image %}
+                                <img src="{{ service.service_image }}" alt="{{ service.service_name }}">
+                                <strong>Description : </strong>
+                                <p> {{ service.service_description }}</p><br>
+                                {% endif %}
+                        </div>
+                        {% endfor %}
                 </div>
-                {% endfor %}
         </div>
 
 {% endblock  %}
