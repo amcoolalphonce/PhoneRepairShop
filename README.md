@@ -19,5 +19,4 @@
 * Add to cart featue that works in real time
 * The issue of cookies
 * Use static CSS and json
-
 use of bootstrap 5 to ease front end
