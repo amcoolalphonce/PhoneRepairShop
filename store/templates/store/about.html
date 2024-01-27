@@ -1,6 +1,7 @@
 {% extends 'store/base.html' %}
 {% load static %}
 
+{% block content %}
 <div class="about-section">
         <h1>About Us Page</h1>
         <p>
@@ -11,3 +12,23 @@
         <li>Fast charging cables</li>
         </p>
 </div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+        <div class="column">
+                <div class="card">
+                        <img src="https://images.unsplash.com/photo-1576613109753-27804de2cba8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvbmUlMjByZXBhaXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                                alt="Brian" style="width:100%">
+                        <div class="container">
+                                <h2>Brian Otachi</h2>
+                                <p class="title">CEO & Founder</p>
+                                <p>An upcoming phones softawre and hardware </p>
+                                <p>brianotachi@gmail.com</p>
+                                <p><button class="button"><a href="brianotachi@gmail.com.com">Contact</a></button></p>
+                        </div>
+                </div>
+        </div>
+
+
+
+ {% endblock content %}       
