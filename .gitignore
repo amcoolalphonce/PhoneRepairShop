@@ -13,3 +13,4 @@ shop/settings.py
 shop/__pycache__
 store/__init__.py
 store/migrations/*
+venv/*
