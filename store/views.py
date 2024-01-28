@@ -11,3 +11,6 @@ def about(request):
 
 def services(request):
         return render(request, 'store/services.html')
+
+def contact(request):
+        return render(request, 'store/contact.html')
