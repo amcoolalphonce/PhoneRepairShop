@@ -76,17 +76,17 @@ body{
         display: block;
    
 }
-.card img {
+.card1 img {
         max-width: 200px;
         height: auto;
         margin-top: 10px;
-        border-radius: 45%;
+        border-radius: 30%;
 }
-.card p {
+.card1 p {
         margin-top: 10px;
         line-height: 1.5;
 }
-.card-container {
+.card1-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -96,7 +96,7 @@ body{
         font-size: 40px;
         margin-top: 20px;
 }
-.cebtered-div{
+.centered-div{
         width: 50%;
         padding: 20px;
         justify-content: center;
