@@ -3,7 +3,7 @@
         --brightred: #F9423D;
         --white: #fff;
         --lightred: #f9433dcc;
-        --background-color: #8f948bc5;
+        --background-color: #ffffff;
 }
 body{
         background-color: var(--background-color);
@@ -69,49 +69,6 @@ body{
         height: 100vh;
         background-position: center center;
         z-index: -1;
-}
-
-.card strong {
-        font-size: 22px;
-        display: block;
-   
-}
-.card1 img {
-        max-width: 200px;
-        height: auto;
-        margin-top: 10px;
-        border-radius: 30%;
-}
-.card1 p {
-        margin-top: 10px;
-        line-height: 1.5;
-}
-.card1-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-}
-.service_list{
-        text-align: center;
-        font-size: 40px;
-        margin-top: 20px;
-}
-.centered-div{
-        width: 50%;
-        padding: 20px;
-        justify-content: center;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* this is for the about page now */
-.about-section {
-        padding: 50px;
-        text-align: center;
-        background-color: #474e5d;
-        color: white;
-}
-.container {
-        padding: 0 16px;
 }
 .container::after,
 .row::after {
