@@ -2,25 +2,24 @@
 {% load static %}
 
 {% block content %}
-        <h1 class="service_list">Service List</h1>
-        <br>
-        <div class="container-fluid">
-                <div class="row">
-                        
-                </div>
-        </div>
-        <div class="centered-div">
-                <div class="card1-container">
-                        {% for service in services %}
-                        <div class="card1">
-                                <strong>{{ service.service_name }}</strong><br>
-                                {% if service.service_image %}
-                                <img src="{{ service.service_image }}" alt="{{ service.service_name }}">
-                                <p> {{ service.service_description }}</p><br>
-                                {% endif %}
+<h1 class="text-center">Service List</h1>
+<br>
+<div class="container">
+        <div class="row">
+                {% for service in services %}
+                <div class="col-md-4">
+                        <div class="card mb-4">
+                                <div class="card-body">
+                                        <strong>{{ service.service_name }}</strong><br>
+                                        {% if service.service_image %}
+                                        <img src="{{ service.service_image }}" class="img-fluid"
+                                                alt="{{ service.service_name }}">
+                                        {% endif %}
+                                        <p>{{ service.service_description }}</p>
+                                </div>
                         </div>
-                        {% endfor %}
                 </div>
+                {% endfor %}
         </div>
-
-{% endblock  %}
+</div>
+{% endblock %}
