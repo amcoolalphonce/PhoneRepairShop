@@ -2,24 +2,32 @@
 {% load static %}
 
 {% block content %}
-<h1 class="text-center">Service List</h1>
-<br>
-<div class="container">
-        <div class="row">
-                {% for service in services %}
-                <div class="col-md-4">
-                        <div class="card mb-4">
-                                <div class="card-body">
-                                        <strong>{{ service.service_name }}</strong><br>
-                                        {% if service.service_image %}
-                                        <img src="{{ service.service_image }}" class="img-fluid"
-                                                alt="{{ service.service_name }}">
-                                        {% endif %}
-                                        <p>{{ service.service_description }}</p>
+<header>
+        <h1 class="text-center">Welcome to Our Phone Repair Services</h1>
+</header>
+
+<section class="services-container">
+        <div class="container">
+                <div class="row">
+                        {% for service in services %}
+                        <div class="col-md-4">
+                                <div class="card mb-4">
+                                        <div class="card-body">
+                                                <h2>{{ service.service_name }}</h2>
+                                                {% if service.service_image %}
+                                                <img src="{{ service.service_image }}" class="img-fluid"
+                                                        alt="{{ service.service_name }}">
+                                                {% endif %}
+                                                <p>{{ service.service_description }}</p>
+                                        </div>
                                 </div>
                         </div>
+                        {% endfor %}
                 </div>
-                {% endfor %}
         </div>
-</div>
+</section>
+
+<footer class="text-center">
+        <p>&copy; 2024 Phone Repair Shop</p>
+</footer>
 {% endblock %}
